@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Group class="DataConnectionUI" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="background" left="0" right="0" top="0" bottom="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="no_water_jpg" x="0" y="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="foreground" left="0" right="0" top="0" bottom="0" touchThrough="true">
+		<e:Group left="0" right="0" top="0" bottom="0" touchThrough="true">
+			<e:Group id="dataNode_0" width="0" height="0" x="128" y="804" anchorOffsetX="0"/>
+			<e:Group width="0" height="0" x="297" y="436" anchorOffsetX="0" id="dataNode_1"/>
+			<e:Group width="0" height="0" x="1413" y="532" anchorOffsetX="0" id="dataNode_2"/>
+			<e:Group width="0" height="0" x="766" y="542" anchorOffsetX="0" id="dataNode_3"/>
+			<e:Group width="0" height="0" x="1266" y="693" anchorOffsetX="0" id="dataNode_4"/>
+			<e:Group width="0" height="0" x="1266" y="250" anchorOffsetX="0" id="dataNode_5"/>
+			<e:Group width="0" height="0" x="450" y="250" anchorOffsetX="0" id="dataNode_6"/>
+			<e:Group id="dataConnection" width="60" height="60" x="1002" y="335" anchorOffsetY="30" anchorOffsetX="30"/>
+		</e:Group>
+		<e:Image id="dialog_test" width="600" height="350" verticalCenter="0" horizontalCenter="0" source="dialog_test_png" x="660" y="365" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Group>

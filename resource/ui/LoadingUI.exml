@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Group class="LoadingUI" width="2000" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="720" height="30" horizontalCenter="0" verticalCenter="0" source="sp_loading_back_png"/>
+	<e:Image width="720" height="30" horizontalCenter="0" verticalCenter="0" mask="{loadingMask}" source="sp_loading_front_png"/>
+	<e:Group width="720" height="30" horizontalCenter="0" verticalCenter="0">
+		<e:Rect id="loadingMask" height="30" fillColor="0xffffff" left="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1" width="{loadingMask.width}"/>
+		<e:Image width="90" height="60" verticalCenter="0" anchorOffsetX="45" x="{loadingMask.width}" source="sp_loading_bar_png"/>
+	</e:Group>
+	<e:layout>
+		<e:BasicLayout/>
+	</e:layout>
+</e:Group>

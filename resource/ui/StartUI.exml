@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Group class="StartUI" width="2000" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" source="shuichang_jpg" height="632"/>
+	<e:Group id="warns" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0">
+		<e:Image id="warn_btn0_0" width="64" height="64" x="464" y="300" source="ic_warn_png"/>
+		<e:Image id="warn_btn0_1" width="64" height="64" x="565" y="236" source="ic_warn_png"/>
+		<e:Image id="warn_btn0_2" width="64" height="64" x="667" y="284" source="ic_warn_png"/>
+		<e:Image id="warn_btn1_0" width="64" height="64" x="915" y="424" source="ic_warn_png"/>
+		<e:Image id="warn_btn1_1" width="64" height="64" x="1000" y="300" source="ic_warn_png"/>
+		<e:Image id="warn_btn2_0" width="64" height="64" x="1211" y="242" source="ic_warn_png"/>
+		<e:Image id="warn_btn2_1" width="64" height="64" x="1305" y="268" source="ic_warn_png"/>
+		<e:Image id="warn_btn2_2" width="64" height="64" x="1243" y="375" source="ic_warn_png"/>
+		<e:Image id="warn_btn2_3" width="64" height="64" x="1377" y="375" source="ic_warn_png"/>
+	</e:Group>
+	<e:Group left="0" right="0" top="632" bottom="0">
+		<e:Button id="btn0" label="资产管理" anchorOffsetY="0" height="60" horizontalCenter="-70%" verticalCenter="0"/>
+		<e:Button id="btn1" label="达标保障" anchorOffsetY="0" height="60" horizontalCenter="-50%" verticalCenter="0"/>
+		<e:Button id="btn2" label="节能降耗" anchorOffsetY="0" height="60" horizontalCenter="-30%" verticalCenter="0"/>
+		<e:Button id="btn3" label="污泥减量" anchorOffsetY="0" height="60" horizontalCenter="-10%" verticalCenter="0"/>
+		<e:Button id="btn4" label="化学品管理" anchorOffsetY="0" height="60" verticalCenter="0" left="52.5%"/>
+		<e:Button id="btn5" label="深度可视化" anchorOffsetY="0" height="60" horizontalCenter="30%" verticalCenter="0"/>
+		<e:Button id="btn6" label="决策支持" anchorOffsetY="0" height="60" horizontalCenter="50%" verticalCenter="0"/>
+		<e:Button id="btn7" label="更多" anchorOffsetY="0" height="60" horizontalCenter="70%" verticalCenter="0"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="30"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="dialog0" width="1024" height="612" verticalCenter="0" alpha="1" x="488" visible="false">
+		<e:Image left="0" right="0" top="0" bottom="0" source="dialog_png" fillMode="scale"/>
+		<e:layout>
+		<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:layout>
+		<e:BasicLayout/>
+	</e:layout>
+	
+</e:Group>

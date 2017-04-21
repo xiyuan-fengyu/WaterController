@@ -1,0 +1,214 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,egret_icon_png,description_json,WaterControllerBg_jpg,ic_close_png,sp_water_item_png,shuichang_jpg,dialog_png,ic_warn_png,bio_pool_tex_png,bio_pool_ske_json,bio_pool_tex_json,no_water_jpg,dialog_test_png,all_jpg",
+			"name": "preload"
+		},
+		{
+			"keys": "sp_loading_front_png,sp_loading_bar_png,sp_loading_back_png",
+			"name": "loading"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "image/WaterControllerBg.jpg",
+			"type": "image",
+			"name": "WaterControllerBg_jpg"
+		},
+		{
+			"url": "image/ic_close.png",
+			"type": "image",
+			"name": "ic_close_png"
+		},
+		{
+			"url": "image/sp_water_item.png",
+			"type": "image",
+			"name": "sp_water_item_png"
+		},
+		{
+			"url": "image/sp_loading_back.png",
+			"type": "image",
+			"name": "sp_loading_back_png"
+		},
+		{
+			"url": "image/sp_loading_front.png",
+			"type": "image",
+			"name": "sp_loading_front_png"
+		},
+		{
+			"url": "image/sp_loading_bar.png",
+			"type": "image",
+			"name": "sp_loading_bar_png"
+		},
+		{
+			"url": "image/shuichang.jpg",
+			"type": "image",
+			"name": "shuichang_jpg"
+		},
+		{
+			"url": "image/dialog.png",
+			"type": "image",
+			"name": "dialog_png"
+		},
+		{
+			"url": "image/ic_warn.png",
+			"type": "image",
+			"name": "ic_warn_png"
+		},
+		{
+			"url": "sprite/bioPool/bio_pool_tex.png",
+			"type": "image",
+			"name": "bio_pool_tex_png"
+		},
+		{
+			"url": "sprite/bioPool/bio_pool_ske.json",
+			"type": "json",
+			"name": "bio_pool_ske_json"
+		},
+		{
+			"url": "sprite/bioPool/bio_pool_tex.json",
+			"type": "json",
+			"name": "bio_pool_tex_json"
+		},
+		{
+			"url": "image/no_water.jpg",
+			"type": "image",
+			"name": "no_water_jpg"
+		},
+		{
+			"url": "image/dialog_test.png",
+			"type": "image",
+			"name": "dialog_test_png"
+		},
+		{
+			"url": "image/all.jpg",
+			"type": "image",
+			"name": "all_jpg"
+		}
+	]
+}

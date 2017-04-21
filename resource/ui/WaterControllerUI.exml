@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Group class="WaterControllerUI" width="2000" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Group id="data" width="0" height="0" x="0" y="0"/>
+	<e:Image id="bg" left="0" right="0" top="0" bottom="0" source="WaterControllerBg_jpg"/>
+	<e:Image id="waterItem0" width="142" height="200" x="101.12" y="25" source="sp_water_item_png"/>
+	<e:Group id="clickArea0" anchorOffsetX="0" anchorOffsetY="0" left="462" top="242" bottom="418" right="1186"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" left="878" top="242" bottom="420" right="708" id="clickArea1" x="10" y="10"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" left="552" top="438" bottom="224" right="1034" id="clickArea2" x="10" y="10"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" left="1026" top="416" bottom="198" right="604" id="clickArea3" x="10" y="10"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" left="1426" top="414" bottom="192" right="68" id="clickArea4" x="10" y="10"/>
+	<e:Group id="optionPanel" width="800" height="500" x="600" y="125">
+		<e:Rect fillColor="0xe0e0e0" fillAlpha="0.8" left="0" right="0" top="0" bottom="0" ellipseWidth="32" ellipseHeight="32" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Group left="20" right="20" top="10" bottom="20">
+			<e:Label text="{optionPanel.title}" left="20" top="1" height="60" textAlign="left" verticalAlign="middle" size="35" textColor="0x0eb3f9" bold="true" x="20" y="1" scaleX="1" scaleY="1" width="100%"/>
+			<e:Group width="100%" height="50" x="398" y="145">
+				<e:HSlider id="optionSlider" height="50" y="206" left="20" value="50" minimum="0" maximum="100" x="0" scaleX="1" scaleY="1" width="80%"/>
+				<e:Label text="{optionSlider.value}" x="0" y="262.00000000000006" scaleX="1" scaleY="1" height="100%" textAlign="center" verticalAlign="middle" bold="true" width="20%" textColor="0x666666"/>
+				<e:layout>
+					<e:HorizontalLayout/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Image id="optionPanelClose" width="32" height="32" right="20" top="20" source="ic_close_png"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:layout>
+		<e:BasicLayout/>
+	</e:layout>
+</e:Group>
