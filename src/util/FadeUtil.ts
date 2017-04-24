@@ -22,7 +22,6 @@ class FadeUtil {
     public static fadeOut(component: egret.DisplayObject, duration = 300, callback = null) {
         let doCallback = typeof callback == "function";
         if (component.visible) {
-            component.alpha = 1;
             egret.Tween.get(component).to({
                 alpha: 0
             }, duration).call(function () {

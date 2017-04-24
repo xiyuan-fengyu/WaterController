@@ -34,6 +34,7 @@
     "resource/ui/ClosingUI.exml",
     "resource/ui/DataConnectionUI.exml",
     "resource/ui/LoadingUI.exml",
+    "resource/ui/MaskTestUI.exml",
     "resource/ui/StartUI.exml",
     "resource/ui/TemplateUI.exml",
     "resource/ui/WaterControllerUI.exml"

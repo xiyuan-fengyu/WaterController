@@ -60,6 +60,8 @@ declare class DataConnectionUI extends eui.Group{
 }
 declare class LoadingUI extends eui.Group{
 }
+declare class MaskTestUI extends eui.Group{
+}
 declare class StartUI extends eui.Group{
 }
 declare class TemplateUI extends eui.Group{

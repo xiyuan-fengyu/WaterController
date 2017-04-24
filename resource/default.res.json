@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,egret_icon_png,description_json,WaterControllerBg_jpg,ic_close_png,sp_water_item_png,shuichang_jpg,dialog_png,ic_warn_png,bio_pool_tex_png,bio_pool_ske_json,bio_pool_tex_json,no_water_jpg,dialog_test_png,all_jpg",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,egret_icon_png,description_json,WaterControllerBg_jpg,ic_close_png,sp_water_item_png,shuichang_jpg,dialog_png,ic_warn_png,bio_pool_tex_png,bio_pool_ske_json,bio_pool_tex_json,no_water_jpg,dialog_test_png,all_jpg,bio_pool_png",
 			"name": "preload"
 		},
 		{
@@ -209,6 +209,11 @@
 			"url": "image/all.jpg",
 			"type": "image",
 			"name": "all_jpg"
+		},
+		{
+			"url": "image/bio_pool.png",
+			"type": "image",
+			"name": "bio_pool_png"
 		}
 	]
 }

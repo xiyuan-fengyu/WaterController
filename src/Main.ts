@@ -152,7 +152,9 @@ class Main extends eui.UILayer {
 
         // this.addChild(new ChartTestScene());
 
-        this.addChild(new ClosingScene());
+        // this.addChild(new ClosingScene());
+
+        this.addChild(new MaskTestScene());
     }
 
 }
