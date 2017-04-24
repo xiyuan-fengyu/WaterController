@@ -3,7 +3,7 @@
  */
 class FadeUtil {
 
-    public static fadeIn(component: egret.DisplayObject, duration = 300, callback = null) {
+    public static fadeIn(component: egret.DisplayObject, callback = null, duration = 300) {
         let doCallback = typeof callback == "function";
         if (component.visible) {
             doCallback && callback();
@@ -14,18 +14,20 @@ class FadeUtil {
             egret.Tween.get(component).to({
                 alpha: 1
             }, duration).call(function () {
+                egret.Tween.removeTweens(component);
                 doCallback && callback();
             });
         }
     }
 
-    public static fadeOut(component: egret.DisplayObject, duration = 300, callback = null) {
+    public static fadeOut(component: egret.DisplayObject, callback = null, duration = 300) {
         let doCallback = typeof callback == "function";
         if (component.visible) {
             egret.Tween.get(component).to({
                 alpha: 0
             }, duration).call(function () {
                 component.visible = false;
+                egret.Tween.removeTweens(component);
                 doCallback && callback();
             });
         }
