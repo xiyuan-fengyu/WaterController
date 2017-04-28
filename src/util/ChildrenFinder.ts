@@ -17,10 +17,23 @@ class ChildrenFinder {
     static findById<T extends egret.DisplayObject>(from: egret.DisplayObjectContainer, id: string): T {
         if (from && id) {
             let obj = from[id];
-            obj.id = id;
-            return <T>obj;
+            if (obj) {
+                obj.id = id;
+                return <T>obj;
+            }
         }
-        else return null;
+        return null;
+    }
+
+    static findByType<T extends egret.DisplayObject>(from: egret.DisplayObjectContainer, type: {new(...args): T}): Array<T> {
+        let result: Array<T> = [];
+        for (let i = 0; i < from.numChildren; i++) {
+            let child = from.getChildAt(i);
+            if (child instanceof type) {
+                result.push(child);
+            }
+        }
+        return result;
     }
 
 }
