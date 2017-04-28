@@ -15,7 +15,12 @@ class ChildrenFinder {
     }
 
     static findById<T extends egret.DisplayObject>(from: egret.DisplayObjectContainer, id: string): T {
-        return from && id ? <T>from[id] : null;
+        if (from && id) {
+            let obj = from[id];
+            obj.id = id;
+            return <T>obj;
+        }
+        else return null;
     }
 
 }
